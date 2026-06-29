@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="App_Title">Flower Shop</sys:String>
+
+    <sys:String x:Key="Role_Client">Client</sys:String>
+    <sys:String x:Key="Role_Admin">Administrator</sys:String>
+
+    <sys:String x:Key="Label_Products">Products</sys:String>
+    <sys:String x:Key="Label_Cart">Cart</sys:String>
+    <sys:String x:Key="Label_Search">Search</sys:String>
+    <sys:String x:Key="Label_Category">Category</sys:String>
+    <sys:String x:Key="Label_PriceRange">Price range</sys:String>
+
+    <sys:String x:Key="Btn_AddProduct">Add product</sys:String>
+    <sys:String x:Key="Btn_EditProduct">Save changes</sys:String>
+    <sys:String x:Key="Btn_DeleteProduct">Delete product</sys:String>
+    <sys:String x:Key="Btn_AddToCart">Add to cart</sys:String>
+    <sys:String x:Key="Btn_RemoveFromCart">Remove from cart</sys:String>
+    <sys:String x:Key="Btn_ClearCart">Clear cart</sys:String>
+
+    <sys:String x:Key="Label_ShortName">Short name</sys:String>
+    <sys:String x:Key="Label_FullName">Full name</sys:String>
+    <sys:String x:Key="Label_Description">Description</sys:String>
+    <sys:String x:Key="Label_CategoryField">Category</sys:String>
+    <sys:String x:Key="Label_Price">Price</sys:String>
+    <sys:String x:Key="Label_Quantity">Quantity</sys:String>
+    <sys:String x:Key="Label_Color">Color</sys:String>
+    <sys:String x:Key="Label_Size">Size</sys:String>
+    <sys:String x:Key="Label_DeliveryCountry">Delivery country</sys:String>
+    <sys:String x:Key="Label_Rating">Rating</sys:String>
+    <sys:String x:Key="Label_Discount">Discount %</sys:String>
+    <sys:String x:Key="Label_PurchasedCount">Purchased</sys:String>
+    <sys:String x:Key="Label_Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Label_CartTotal">Total</sys:String>
+
+    <sys:String x:Key="Menu_Language">Language</sys:String>
+    <sys:String x:Key="Menu_Lang_Ru">Русский</sys:String>
+    <sys:String x:Key="Menu_Lang_En">English</sys:String>
+</ResourceDictionary>

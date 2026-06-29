@@ -1,0 +1,11 @@
+C:\4_sem\OOP\lab1\bin\Debug\lab1.exe.config
+C:\4_sem\OOP\lab1\bin\Debug\lab1.exe
+C:\4_sem\OOP\lab1\bin\Debug\lab1.pdb
+C:\4_sem\OOP\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\4_sem\OOP\lab1\obj\Debug\lab1.Form1.resources
+C:\4_sem\OOP\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\4_sem\OOP\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\4_sem\OOP\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\4_sem\OOP\lab1\obj\Debug\lab1.exe
+C:\4_sem\OOP\lab1\obj\Debug\lab1.pdb
+C:\4_sem\OOP\lab1\obj\Debug\lab1.exe.config

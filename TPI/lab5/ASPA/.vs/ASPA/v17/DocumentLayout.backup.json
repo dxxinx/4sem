@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\4_sem\\TPI\\lab5\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\test_aspa005_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|solutionrelative:test_aspa005_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEC9D57C-0D27-4E2D-8469-6EF252D96BBB}|ASPA005_3\\ASPA005_3.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\aspa005_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEC9D57C-0D27-4E2D-8469-6EF252D96BBB}|ASPA005_3\\ASPA005_3.csproj|solutionrelative:aspa005_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\test_aspa005_3\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|solutionrelative:test_aspa005_3\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF71427-5E05-40FF-9864-705318267226}|ASPA005_2\\ASPA005_2.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\aspa005_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF71427-5E05-40FF-9864-705318267226}|ASPA005_2\\ASPA005_2.csproj|solutionrelative:aspa005_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF71427-5E05-40FF-9864-705318267226}|ASPA005_2\\ASPA005_2.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\aspa005_2\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF71427-5E05-40FF-9864-705318267226}|ASPA005_2\\ASPA005_2.csproj|solutionrelative:aspa005_2\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E966042-4846-4740-9FE9-75FA56E52732}|ASPA005_1\\ASPA005_1.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\aspa005_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E966042-4846-4740-9FE9-75FA56E52732}|ASPA005_1\\ASPA005_1.csproj|solutionrelative:aspa005_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|c:\\4_sem\\tpi\\lab5\\aspa\\test_aspa005_3\\test_aspa005_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3E64FF6-CE5F-4FA7-B337-270CFC183B0F}|Test_ASPA005_3\\Test_ASPA005_3.csproj|solutionrelative:test_aspa005_3\\test_aspa005_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 480,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Test.cs",
+              "RelativeDocumentMoniker": "Test_ASPA005_3\\Test.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Test.cs",
+              "RelativeToolTip": "Test_ASPA005_3\\Test.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:47:40.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Test_ASPA005_3.csproj",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Test_ASPA005_3.csproj",
+              "RelativeDocumentMoniker": "Test_ASPA005_3\\Test_ASPA005_3.csproj",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Test_ASPA005_3.csproj",
+              "RelativeToolTip": "Test_ASPA005_3\\Test_ASPA005_3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T07:45:41.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Program.cs",
+              "RelativeDocumentMoniker": "Test_ASPA005_3\\Program.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\Test_ASPA005_3\\Program.cs",
+              "RelativeToolTip": "Test_ASPA005_3\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:45:02.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_3\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA005_3\\Program.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_3\\Program.cs",
+              "RelativeToolTip": "ASPA005_3\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:44:25.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_2\\Validation.cs",
+              "RelativeDocumentMoniker": "ASPA005_2\\Validation.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_2\\Validation.cs",
+              "RelativeToolTip": "ASPA005_2\\Validation.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:41:23.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_2\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA005_2\\Program.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_2\\Program.cs",
+              "RelativeToolTip": "ASPA005_2\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:40:05.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA005_1\\Program.cs",
+              "ToolTip": "C:\\4_sem\\TPI\\lab5\\ASPA\\ASPA005_1\\Program.cs",
+              "RelativeToolTip": "ASPA005_1\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:32:57.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

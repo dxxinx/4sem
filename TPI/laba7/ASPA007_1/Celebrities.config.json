@@ -1,0 +1,6 @@
+﻿{
+  "Celebrities": {
+    "PhotosFolder": "C:\\4_sem\\TPI\\lab6\\ASPA006_1\\Photos",
+    "ConnectionString": "Data Source=localhost\\SQLEXPRESS;Initial Catalog=LES01;TrustServerCertificate=True;Integrated Security=True;"
+  }
+}

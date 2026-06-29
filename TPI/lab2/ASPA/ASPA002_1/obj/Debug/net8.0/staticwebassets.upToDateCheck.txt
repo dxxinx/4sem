@@ -1,0 +1,4 @@
+wwwroot\images\Neumann.jpg
+wwwroot\js\Calc.js
+wwwroot\css\index.css
+wwwroot\Index.html

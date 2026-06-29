@@ -1,0 +1,151 @@
+[
+  {
+    "Name": "fddfdfdfdf",
+    "AgeGroup": 2,
+    "Difficulty": 8,
+    "LecturesCount": 8,
+    "LabsCount": 6,
+    "ControlType": "Зачет",
+    "StartDate": "2026-02-26T11:54:56",
+    "IsActive": true,
+    "Teacher": {
+      "Department": "eweew332rfdfd",
+      "FullName": "reeerre rereer ggtrrttr",
+      "RoomNumber": 102,
+      "Email": "ffdddfdf@gmai.com",
+      "Phone": "+375(29)353-15-58"
+    },
+    "LiteratureList": [
+      {
+        "Title": "ffdfddf",
+        "Author": "fdddfdffd",
+        "Year": 1900
+      }
+    ],
+    "Budget": 40320.00
+  },
+  {
+    "Name": "fkgfkgfkfk",
+    "AgeGroup": 3,
+    "Difficulty": 8,
+    "LecturesCount": 9,
+    "LabsCount": 6,
+    "ControlType": "Зачет",
+    "StartDate": "2026-02-27T12:40:40",
+    "IsActive": true,
+    "Teacher": {
+      "Department": "sdkkdsksdkds",
+      "FullName": "ksewkks dksdkdsk sdksdkksd",
+      "RoomNumber": 97,
+      "Email": "sdsddsk@gmail.com",
+      "Phone": "+375(29)353-15-58"
+    },
+    "LiteratureList": [
+      {
+        "Title": "ddffdfd",
+        "Author": "qwwwqwq",
+        "Year": 1900
+      },
+      {
+        "Title": "jhgfd",
+        "Author": "tyuiop",
+        "Year": 2025
+      }
+    ],
+    "Budget": 54000.00
+  },
+  {
+    "Name": "выапролдж",
+    "AgeGroup": 1,
+    "Difficulty": 1,
+    "LecturesCount": 3,
+    "LabsCount": 1,
+    "ControlType": "Экзамен",
+    "StartDate": "2026-02-23T12:44:55",
+    "IsActive": true,
+    "Teacher": {
+      "Department": "норпеакуцкапир",
+      "FullName": "ывапроглд лорпава орпав",
+      "RoomNumber": 108,
+      "Email": "sdfghjgf@gmail.com",
+      "Phone": "+375(44)740-02-13"
+    },
+    "LiteratureList": [
+      {
+        "Title": "dcfxvbnmnhgfd",
+        "Author": "vcdsxcddc",
+        "Year": 2003
+      }
+    ],
+    "Budget": 3200.00
+  },
+  {
+    "Name": "sadfghfds",
+    "AgeGroup": 2,
+    "Difficulty": 7,
+    "LecturesCount": 11,
+    "LabsCount": 6,
+    "ControlType": "Экзамен",
+    "StartDate": "2026-02-28T13:02:45",
+    "IsActive": false,
+    "Teacher": {
+      "Department": "fghfdsfs",
+      "FullName": "sdfghfgds gfdsd ghfds",
+      "RoomNumber": 101,
+      "Email": "ghfds@gmail.com",
+      "Phone": "+375(29)353-15-58"
+    },
+    "LiteratureList": [
+      {
+        "Title": "xcvbcfdszxcv",
+        "Author": "cfvbfdscvfd",
+        "Year": 1923
+      }
+    ],
+    "Budget": 44880.00
+  },
+  {
+    "Name": "васпронгенквап ",
+    "AgeGroup": 3,
+    "Difficulty": 10,
+    "LecturesCount": 7,
+    "LabsCount": 7,
+    "ControlType": "Зачет",
+    "StartDate": "2026-02-26T17:14:51",
+    "IsActive": true,
+    "Teacher": {
+      "Department": "уыквеапнроне",
+      "FullName": "ывапррторпаевкы фывапеавквк цуавпакувацуцык",
+      "RoomNumber": 96,
+      "Email": "sdffgrdfg@gmail.com",
+      "Phone": "+375(29)353-15-58"
+    },
+    "LiteratureList": [
+      {
+        "Title": "dxfcghggfdd",
+        "Author": "sdfghgftr",
+        "Year": 2007
+      }
+    ],
+    "Budget": 58800.00
+  },
+  {
+    "Name": "fghjhgffn",
+    "AgeGroup": 2,
+    "Difficulty": 10,
+    "LecturesCount": 6,
+    "LabsCount": 1,
+    "ControlType": "Зачет",
+    "StartDate": "2026-02-23T18:38:16.9446847+03:00",
+    "IsActive": true,
+    "Teacher": {
+      "Department": "rdtfgdfcx",
+      "FullName": "sdfgfd gfdfggfr gfdgfd",
+      "RoomNumber": 101,
+      "Email": "yjhgfds@gmail",
+      "Phone": "+375(  )   -  -"
+    },
+    "LiteratureList": [],
+    "Budget": 23520.00
+  }
+]

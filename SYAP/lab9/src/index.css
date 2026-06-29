@@ -1,0 +1,115 @@
+:root, .light-theme {
+  --text: #4b5563;
+  --text-h: #111827;
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --border: #e5e7eb;
+  --accent: #2563eb;
+  --shadow: rgba(15, 23, 42, 0.08) 0 10px 24px;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --card-bg: #ffffff;
+  --nav-bg: rgba(255, 255, 255, 0.94);
+}
+
+.dark-theme {
+  --text: #d1d5db;
+  --text-h: #ffffff;
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --border: #334155;
+  --accent: #38bdf8;
+  --shadow: rgba(0, 0, 0, 0.4) 0 10px 24px;
+  --card-bg: #1e293b;
+  --nav-bg: rgba(15, 23, 42, 0.94);
+}
+
+body {
+  margin: 0;
+  font: 16px/145% var(--sans);
+  color: var(--text);
+  background-color: var(--bg);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1, h2, h3 {
+  color: var(--text-h);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  padding: 0 32px;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  box-sizing: border-box;
+}
+
+.nav-links, .nav-actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navbar a, .link-button {
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar a:hover, .link-button:hover {
+  color: var(--accent);
+}
+
+.navbar a.active {
+  color: var(--accent);
+}
+
+.cart-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-badge {
+  background: #ef4444;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 10px;
+  min-width: 14px;
+  text-align: center;
+}
+
+.secondary-link {
+  background: var(--surface);
+  color: var(--text-h);
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  .navbar {
+    padding: 0 20px;
+    gap: 12px;
+  }
+
+  .link-button {
+    margin-left: 0;
+  }
+}

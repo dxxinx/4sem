@@ -1,0 +1,272 @@
+.catalog-page {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.catalog-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d9dee8;
+}
+
+.catalog-header h1 {
+  margin: 4px 0 8px;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.eyebrow,
+.user-line,
+.status-text,
+.product-category,
+.details-text {
+  color: #5f6878;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-actions,
+.form-actions,
+.card-actions,
+.category-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.category-nav {
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.category-nav a,
+.category-pill {
+  padding: 8px 12px;
+  border: 1px solid #d9dee8;
+  border-radius: 999px;
+  color: #1f2937;
+  text-decoration: none;
+  background: #ffffff;
+}
+
+.category-nav a.active,
+.category-pill {
+  border-color: #2563eb;
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.form-panel {
+  margin: 24px 0;
+  padding: 20px;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.form-panel h2 {
+  margin-bottom: 16px;
+}
+
+.product-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row-wide {
+  grid-column: span 2;
+}
+
+.form-row label {
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.form-row input {
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #111827;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  grid-column: 1 / -1;
+}
+
+.field-error,
+.error-status {
+  color: #b91c1c;
+}
+
+.field-error {
+  font-size: 13px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.product-card {
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.product-thumb {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #f8fafc;
+}
+
+.product-card h3 {
+  margin: 8px 0 0;
+  color: #111827;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.product-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-card h3 a:hover {
+  color: #1d4ed8;
+}
+
+.product-id {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.product-price,
+.details-price {
+  color: #0f766e;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.product-details {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(240px, 360px) 1fr;
+  gap: 32px;
+  padding: 40px 32px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.details-thumb {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #d9dee8;
+  background: #f8fafc;
+}
+
+.details-price {
+  margin: 20px 0 10px;
+}
+
+.page-status {
+  padding: 40px 32px;
+}
+
+button {
+  min-height: 40px;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  background: #475569;
+}
+
+.secondary-button:hover {
+  background: #334155;
+}
+
+.danger-button {
+  background: #dc2626;
+}
+
+.danger-button:hover {
+  background: #b91c1c;
+}
+
+@media (max-width: 720px) {
+  .catalog-page {
+    padding: 20px;
+  }
+
+  .catalog-header,
+  .header-actions,
+  .product-details {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .header-actions,
+  .header-actions button {
+    width: 100%;
+  }
+
+  .product-form {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row-wide {
+    grid-column: auto;
+  }
+}

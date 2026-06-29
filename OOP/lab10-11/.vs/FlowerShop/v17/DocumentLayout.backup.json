@@ -1,0 +1,637 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\4_sem\\OOP\\lab9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|c:\\4_sem\\oop\\lab9\\data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:data\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\databasewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:databasewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\quantitystepper.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\quantitystepper.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\productcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\productcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\commands\\customcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:commands\\customcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\ratingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\ratingcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\productcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\quantitystepper.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\quantitystepper.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\ratingcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\pricebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\pricebox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\controls\\pricebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:controls\\pricebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\resources\\strings.ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:resources\\strings.ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\services\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:services\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:resources\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\services\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:services\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\services\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:services\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\resources\\theme.pink.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:resources\\theme.pink.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\resources\\theme.purple.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:resources\\theme.purple.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:profilewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\services\\deleteproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:services\\deleteproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\services\\addproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:services\\addproductaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:profilewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\profilewindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:profilewindow.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\resources\\strings.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:resources\\strings.en.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\data\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:data\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\converters\\fileimagepathconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:converters\\fileimagepathconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\converters\\enumtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:converters\\enumtoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|C:\\4_sem\\OOP\\lab9\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1857831A-F76E-49FD-9786-8522BA20CEA9}|FlowerShop.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 480,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-27T14:37:39.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseWindow.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\DatabaseWindow.xaml",
+              "RelativeDocumentMoniker": "DatabaseWindow.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\DatabaseWindow.xaml",
+              "RelativeToolTip": "DatabaseWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-26T14:07:27.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Data\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseService.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Data\\DatabaseService.cs",
+              "RelativeToolTip": "Data\\DatabaseService.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswJEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:05:33.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuantityStepper.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\QuantityStepper.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\QuantityStepper.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\QuantityStepper.xaml.cs",
+              "RelativeToolTip": "Controls\\QuantityStepper.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:06:09.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuantityStepper.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\QuantityStepper.xaml",
+              "RelativeDocumentMoniker": "Controls\\QuantityStepper.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\QuantityStepper.xaml",
+              "RelativeToolTip": "Controls\\QuantityStepper.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-13T11:20:36.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomCommands.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Commands\\CustomCommands.cs",
+              "RelativeDocumentMoniker": "Commands\\CustomCommands.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Commands\\CustomCommands.cs",
+              "RelativeToolTip": "Commands\\CustomCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:49:37.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PriceBox.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\PriceBox.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\PriceBox.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\PriceBox.xaml.cs",
+              "RelativeToolTip": "Controls\\PriceBox.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAvwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:40:08.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PriceBox.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\PriceBox.xaml",
+              "RelativeDocumentMoniker": "Controls\\PriceBox.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\PriceBox.xaml",
+              "RelativeToolTip": "Controls\\PriceBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T11:39:49.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RatingControl.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\RatingControl.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\RatingControl.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\RatingControl.xaml.cs",
+              "RelativeToolTip": "Controls\\RatingControl.xaml.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv7sAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T11:39:05.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RatingControl.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\RatingControl.xaml",
+              "RelativeDocumentMoniker": "Controls\\RatingControl.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\RatingControl.xaml",
+              "RelativeToolTip": "Controls\\RatingControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-12T11:38:30.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProfileWindow.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml",
+              "RelativeDocumentMoniker": "ProfileWindow.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml",
+              "RelativeToolTip": "ProfileWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T15:09:54.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProfileWindow.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml",
+              "RelativeDocumentMoniker": "ProfileWindow.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml",
+              "RelativeToolTip": "ProfileWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T11:09:36.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Theme.Purple.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Resources\\Theme.Purple.xaml",
+              "RelativeDocumentMoniker": "Resources\\Theme.Purple.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Resources\\Theme.Purple.xaml",
+              "RelativeToolTip": "Resources\\Theme.Purple.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T22:06:58.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeleteProductAction.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Services\\DeleteProductAction.cs",
+              "RelativeDocumentMoniker": "Services\\DeleteProductAction.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Services\\DeleteProductAction.cs",
+              "RelativeToolTip": "Services\\DeleteProductAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:37:51.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddProductAction.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Services\\AddProductAction.cs",
+              "RelativeDocumentMoniker": "Services\\AddProductAction.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Services\\AddProductAction.cs",
+              "RelativeToolTip": "Services\\AddProductAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:37:30.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAction.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Services\\IAction.cs",
+              "RelativeDocumentMoniker": "Services\\IAction.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Services\\IAction.cs",
+              "RelativeToolTip": "Services\\IAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:37:10.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductCard.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\ProductCard.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\ProductCard.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\ProductCard.xaml.cs",
+              "RelativeToolTip": "Controls\\ProductCard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:34:39.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductCard.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Controls\\ProductCard.xaml",
+              "RelativeDocumentMoniker": "Controls\\ProductCard.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Controls\\ProductCard.xaml",
+              "RelativeToolTip": "Controls\\ProductCard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T21:33:56.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProfileWindow.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProfileWindow.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ProfileWindow.xaml.cs",
+              "RelativeToolTip": "ProfileWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:27:46.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:26:06.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Services\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "Services\\ThemeManager.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Services\\ThemeManager.cs",
+              "RelativeToolTip": "Services\\ThemeManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:25:27.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Theme.Pink.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Resources\\Theme.Pink.xaml",
+              "RelativeDocumentMoniker": "Resources\\Theme.Pink.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Resources\\Theme.Pink.xaml",
+              "RelativeToolTip": "Resources\\Theme.Pink.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-27T21:24:44.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FileImagePathConverter.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Converters\\FileImagePathConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\FileImagePathConverter.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Converters\\FileImagePathConverter.cs",
+              "RelativeToolTip": "Converters\\FileImagePathConverter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T14:03:40.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T08:27:18.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:26:16.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EnumToBoolConverter.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Converters\\EnumToBoolConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\EnumToBoolConverter.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Converters\\EnumToBoolConverter.cs",
+              "RelativeToolTip": "Converters\\EnumToBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:25:54.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T07:24:19.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "products.json",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Data\\products.json",
+              "RelativeDocumentMoniker": "Data\\products.json",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Data\\products.json",
+              "RelativeToolTip": "Data\\products.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-08T07:20:08.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Strings.en.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Resources\\Strings.en.xaml",
+              "RelativeDocumentMoniker": "Resources\\Strings.en.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Resources\\Strings.en.xaml",
+              "RelativeToolTip": "Resources\\Strings.en.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T07:19:35.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Strings.ru.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Resources\\Strings.ru.xaml",
+              "RelativeDocumentMoniker": "Resources\\Strings.ru.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Resources\\Strings.ru.xaml",
+              "RelativeToolTip": "Resources\\Strings.ru.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T07:19:18.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Resources\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T07:19:04.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Services\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Services\\ProductRepository.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Services\\ProductRepository.cs",
+              "RelativeToolTip": "Services\\ProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:16:51.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAHwBAAAAAAAAAADgv4YAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:16:25.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:16:12.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:15:58.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:15:13.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAA5wJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:14:45.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-08T07:13:58.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\4_sem\\OOP\\lab9\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\4_sem\\OOP\\lab9\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T07:13:57.904Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

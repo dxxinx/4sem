@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\4_sem\\SYAP\\lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|c:\\4_sem\\syap\\lab4\\src\\counter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|solutionrelative:src\\counter.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|c:\\4_sem\\syap\\lab4\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|solutionrelative:src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|c:\\4_sem\\syap\\lab4\\src\\button.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{D3A8C861-4941-D343-137E-37E0CBF989BB}|lab4.esproj|solutionrelative:src\\button.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 480,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.tsx",
+              "DocumentMoniker": "C:\\4_sem\\SYAP\\lab4\\src\\main.tsx",
+              "RelativeDocumentMoniker": "src\\main.tsx",
+              "ToolTip": "C:\\4_sem\\SYAP\\lab4\\src\\main.tsx",
+              "RelativeToolTip": "src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-20T15:14:47.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.tsx",
+              "DocumentMoniker": "C:\\4_sem\\SYAP\\lab4\\src\\Counter.tsx",
+              "RelativeDocumentMoniker": "src\\Counter.tsx",
+              "ToolTip": "C:\\4_sem\\SYAP\\lab4\\src\\Counter.tsx*",
+              "RelativeToolTip": "src\\Counter.tsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-20T15:14:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Button.tsx",
+              "DocumentMoniker": "C:\\4_sem\\SYAP\\lab4\\src\\Button.tsx",
+              "RelativeDocumentMoniker": "src\\Button.tsx",
+              "ToolTip": "C:\\4_sem\\SYAP\\lab4\\src\\Button.tsx",
+              "RelativeToolTip": "src\\Button.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-20T15:14:44.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RU0lkGrH3K8=",
+  "success": true,
+  "projectFilePath": "C:\\4_sem\\TPI\\lab4\\ASPA\\Teast_DAL004\\Teast_DAL004.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diana\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="ModelFirst.Category" />
+    <EntitySet Name="Manufacturers" EntityType="ModelFirst.Manufacturer" />
+    <EntitySet Name="Products" EntityType="ModelFirst.Product" />
+    <AssociationSet Name="CategoryProducts" Association="ModelFirst.CategoryProducts">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="ManufacturerProduct" Association="ModelFirst.ManufacturerProduct">
+      <End Role="Manufacturer" EntitySet="Manufacturers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Products" Relationship="ModelFirst.CategoryProducts" FromRole="Category" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="ManufacturerId" />
+    </Key>
+    <Property Name="ManufacturerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Products" Relationship="ModelFirst.ManufacturerProduct" FromRole="Manufacturer" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Category" Relationship="ModelFirst.CategoryProducts" FromRole="Product" ToRole="Category" />
+    <Property Name="CategoryCategoryId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Manufacturer" Relationship="ModelFirst.ManufacturerProduct" FromRole="Product" ToRole="Manufacturer" />
+    <Property Name="ManufacturerManufacturerId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="CategoryProducts">
+    <End Type="ModelFirst.Category" Role="Category" Multiplicity="1" />
+    <End Type="ModelFirst.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ManufacturerProduct">
+    <End Type="ModelFirst.Manufacturer" Role="Manufacturer" Multiplicity="1" />
+    <End Type="ModelFirst.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturer">
+        <PropertyRef Name="ManufacturerId" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ManufacturerManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

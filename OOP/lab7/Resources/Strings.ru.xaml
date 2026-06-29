@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <sys:String x:Key="App_Title" xmlns:sys="clr-namespace:System;assembly=mscorlib">Магазин цветов</sys:String>
+
+    <sys:String x:Key="Role_Client" xmlns:sys="clr-namespace:System;assembly=mscorlib">Клиент</sys:String>
+    <sys:String x:Key="Role_Admin" xmlns:sys="clr-namespace:System;assembly=mscorlib">Администратор</sys:String>
+
+    <sys:String x:Key="Label_Products" xmlns:sys="clr-namespace:System;assembly=mscorlib">Товары</sys:String>
+    <sys:String x:Key="Label_Cart" xmlns:sys="clr-namespace:System;assembly=mscorlib">Корзина</sys:String>
+    <sys:String x:Key="Label_Search" xmlns:sys="clr-namespace:System;assembly=mscorlib">Поиск</sys:String>
+    <sys:String x:Key="Label_Category" xmlns:sys="clr-namespace:System;assembly=mscorlib">Категория</sys:String>
+    <sys:String x:Key="Label_PriceRange" xmlns:sys="clr-namespace:System;assembly=mscorlib">Диапазон цен</sys:String>
+
+    <sys:String x:Key="Btn_AddProduct" xmlns:sys="clr-namespace:System;assembly=mscorlib">Добавить товар</sys:String>
+    <sys:String x:Key="Btn_EditProduct" xmlns:sys="clr-namespace:System;assembly=mscorlib">Сохранить изменения</sys:String>
+    <sys:String x:Key="Btn_DeleteProduct" xmlns:sys="clr-namespace:System;assembly=mscorlib">Удалить товар</sys:String>
+    <sys:String x:Key="Btn_AddToCart" xmlns:sys="clr-namespace:System;assembly=mscorlib">В корзину</sys:String>
+    <sys:String x:Key="Btn_RemoveFromCart" xmlns:sys="clr-namespace:System;assembly=mscorlib">Удалить из корзины</sys:String>
+    <sys:String x:Key="Btn_ClearCart" xmlns:sys="clr-namespace:System;assembly=mscorlib">Очистить корзину</sys:String>
+
+    <sys:String x:Key="Label_ShortName" xmlns:sys="clr-namespace:System;assembly=mscorlib">Краткое название</sys:String>
+    <sys:String x:Key="Label_FullName" xmlns:sys="clr-namespace:System;assembly=mscorlib">Полное название</sys:String>
+    <sys:String x:Key="Label_Description" xmlns:sys="clr-namespace:System;assembly=mscorlib">Описание</sys:String>
+    <sys:String x:Key="Label_CategoryField" xmlns:sys="clr-namespace:System;assembly=mscorlib">Категория</sys:String>
+    <sys:String x:Key="Label_Price" xmlns:sys="clr-namespace:System;assembly=mscorlib">Цена</sys:String>
+    <sys:String x:Key="Label_Quantity" xmlns:sys="clr-namespace:System;assembly=mscorlib">Количество</sys:String>
+    <sys:String x:Key="Label_Color" xmlns:sys="clr-namespace:System;assembly=mscorlib">Цвет</sys:String>
+    <sys:String x:Key="Label_Size" xmlns:sys="clr-namespace:System;assembly=mscorlib">Размер</sys:String>
+    <sys:String x:Key="Label_DeliveryCountry" xmlns:sys="clr-namespace:System;assembly=mscorlib">Страна доставки</sys:String>
+    <sys:String x:Key="Label_Rating" xmlns:sys="clr-namespace:System;assembly=mscorlib">Рейтинг</sys:String>
+    <sys:String x:Key="Label_Discount" xmlns:sys="clr-namespace:System;assembly=mscorlib">Скидка %</sys:String>
+    <sys:String x:Key="Label_PurchasedCount" xmlns:sys="clr-namespace:System;assembly=mscorlib">Куплено</sys:String>
+    <sys:String x:Key="Label_Manufacturer" xmlns:sys="clr-namespace:System;assembly=mscorlib">Производитель</sys:String>
+    <sys:String x:Key="Label_CartTotal" xmlns:sys="clr-namespace:System;assembly=mscorlib">Итого</sys:String>
+
+    <sys:String x:Key="Menu_Language" xmlns:sys="clr-namespace:System;assembly=mscorlib">Язык</sys:String>
+    <sys:String x:Key="Menu_Lang_Ru" xmlns:sys="clr-namespace:System;assembly=mscorlib">Русский</sys:String>
+    <sys:String x:Key="Menu_Lang_En" xmlns:sys="clr-namespace:System;assembly=mscorlib">English</sys:String>
+</ResourceDictionary>

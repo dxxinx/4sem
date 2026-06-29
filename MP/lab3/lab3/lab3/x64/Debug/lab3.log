@@ -1,0 +1,7 @@
+﻿  Combi.cpp
+  lab3.cpp
+  TSP.cpp
+  Создание кода...
+C:\4_sem\MP\lab3\TSP.cpp(52,8): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\4_sem\MP\lab3\TSP.cpp(60,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  lab3.vcxproj -> C:\4_sem\MP\lab3\x64\Debug\lab3.exe

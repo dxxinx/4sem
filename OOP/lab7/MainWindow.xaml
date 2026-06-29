@@ -1,0 +1,322 @@
+﻿<Window x:Class="FlowerShop.MainWindow"
+        xmlns:controls="clr-namespace:FlowerShop.Controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:FlowerShop.ViewModels"
+        xmlns:commands="clr-namespace:FlowerShop.Commands"
+        mc:Ignorable="d"
+        Title="{DynamicResource App_Title}"
+        Height="740" Width="1000"
+        Cursor="/Assets/customcursor.cur">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetName="LogoImage"
+                                 Storyboard.TargetProperty="Opacity"
+                                 From="0" To="1"
+                                 Duration="0:0:1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Window.CommandBindings>
+        <CommandBinding Command="commands:CustomCommands.ResetPrice"
+                    Executed="ResetPrice_Executed"/>
+    </Window.CommandBindings>
+
+    <DockPanel LastChildFill="True">
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusBarTextBlock"
+                           Text="События: direct, tunneling и bubbling будут показаны здесь."/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <!-- Верхняя панель: меню, выбор роли -->
+        <DockPanel DockPanel.Dock="Top" Background="{DynamicResource PrimaryDarkBrush}">
+            <Image x:Name="LogoImage"
+                   Source="/Assets/logo.png"
+                   Height="40"
+                   Margin="8"
+                   DockPanel.Dock="Left"
+                   Opacity="0"/>
+            <Menu DockPanel.Dock="Left" Background="{DynamicResource PrimaryDarkBrush}" Foreground="White">
+                <MenuItem Header="{DynamicResource Menu_Language}">
+                    <MenuItem Header="{DynamicResource Menu_Lang_Ru}" Click="MenuItem_LangRu_Click"/>
+                    <MenuItem Header="{DynamicResource Menu_Lang_En}" Click="MenuItem_LangEn_Click"/>
+                </MenuItem>
+                <MenuItem Header="Тема">
+                    <MenuItem Header="Фиолетовая" Click="ThemePurple_Click"/>
+                    <MenuItem Header="Розовая" Click="ThemePink_Click"/>
+                </MenuItem>
+            </Menu>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="8">
+                <TextBlock Text="{DynamicResource Role_Client}" Foreground="White" Margin="4,0"/>
+                <RadioButton GroupName="Role" Margin="4,0"
+                             IsChecked="{Binding CurrentRole, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=Client}"/>
+                <TextBlock Text="{DynamicResource Role_Admin}" Foreground="White" Margin="12,0,4,0"/>
+                <RadioButton GroupName="Role" Margin="4,0"
+                             IsChecked="{Binding CurrentRole, Converter={StaticResource EnumToBoolConverter}, ConverterParameter=Admin}"/>
+                <Button Content="Личный кабинет"
+                        Margin="12,0,0,0"
+                        Click="ProfileButton_Click"/>
+            </StackPanel>
+        </DockPanel>
+
+        <!-- Основная область -->
+        <Grid Margin="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="333*"/>
+                <ColumnDefinition Width="310*"/>
+                <ColumnDefinition Width="341*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Панель фильтров -->
+            <WrapPanel Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="0,4">
+                <Label Content="{DynamicResource Label_Search}" VerticalAlignment="Center"/>
+                <TextBox Width="150" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <Label Content="{DynamicResource Label_Category}" VerticalAlignment="Center"/>
+                <ComboBox Width="150"
+                          ItemsSource="{Binding Categories}"
+                          SelectedItem="{Binding SelectedCategory}"/>
+
+                <Label Content="{DynamicResource Label_PriceRange}" VerticalAlignment="Center"/>
+                <TextBox Width="80" Text="{Binding MinPrice, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Text=" - " VerticalAlignment="Center"/>
+                <TextBox Width="80" Text="{Binding MaxPrice, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <Button Content="{DynamicResource Btn_AddProduct}"
+                        Command="{Binding AddProductCommand}"
+                        Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                <Button Content="{DynamicResource Btn_EditProduct}"
+                        Command="{Binding EditProductCommand}"
+                        Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                <Button Content="{DynamicResource Btn_DeleteProduct}"
+                        Command="{Binding DeleteProductCommand}"
+                        Visibility="{Binding IsAdmin, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                <Button Content="Undo" Command="{Binding UndoCommand}"/>
+                <Button Content="Redo" Command="{Binding RedoCommand}"/>
+            </WrapPanel>
+
+            <!-- Список товаров -->
+            <GroupBox Grid.Row="1" Grid.Column="0" Header="{DynamicResource Label_Products}" Margin="4,4,4,4" Padding="10,6,10,10" Background="{DynamicResource PrimaryBrush}">
+                <Grid Height="574">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListView ItemsSource="{Binding ProductsView}"
+                              SelectedItem="{Binding SelectedProduct}"
+                              HorizontalContentAlignment="Stretch" Margin="4,4,4,4">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <controls:ProductCard/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </Grid>
+            </GroupBox>
+
+            <!-- Детализация товара -->
+            <GroupBox Grid.Row="1" Grid.Column="1" Header="{Binding SelectedProduct.ShortName}" Margin="4,4,4,4">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <Grid Margin="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- 14 строк + последняя растягивающаяся -->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <!-- 0: Image -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 1: ShortName -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 2: FullName -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 3: Description -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 4: Category -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 5: Price -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 6: Quantity -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 7: Color -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 8: Size -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 9: DeliveryCountry -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 10: Rating -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 11: Discount -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 12: PurchasedCount -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 13: Manufacturer -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- 14: Button -->
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Изображение товара -->
+                        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                        Source="{Binding SelectedProduct.ImagePaths[0], Converter={StaticResource FileImagePathConverter}}"
+                        Height="150"
+                        Stretch="UniformToFill"
+                        Margin="35,0,35,10"/>
+
+                        <!-- Краткое название -->
+                        <Label Grid.Row="1" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_ShortName}"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.ShortName, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Полное название -->
+                        <Label Grid.Row="2" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_FullName}"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.FullName, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Описание -->
+                        <Label Grid.Row="3" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Description}"/>
+                        <TextBox Grid.Row="3" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.Description, UpdateSourceTrigger=PropertyChanged}"
+                            AcceptsReturn="True" Height="60"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Категория -->
+                        <Label Grid.Row="4" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_CategoryField}"/>
+                        <TextBox Grid.Row="4" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.Category, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Цена -->
+                        <Label Grid.Row="5" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Price}"/>
+                        <TextBox Grid.Row="5" Grid.Column="1"
+                                 Width="120" Height="30"
+                                 Text="{Binding SelectedProduct.Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 IsEnabled="{Binding IsAdmin}"
+                                 Foreground="Black"
+                                 Background="White"/>
+
+                        <!-- Количество -->
+                        <Label Grid.Row="6" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Quantity}"/>
+                        <controls:QuantityStepper Grid.Row="6" Grid.Column="1"
+                                                  Quantity="{Binding SelectedProduct.QuantityInStock, Mode=TwoWay}"
+                                                  Step="1"
+                                                  Maximum="100"
+                                                  IsEnabled="{Binding IsAdmin}"
+                                                  PreviewQuantityChanged="QuantityStepper_PreviewQuantityChanged"
+                                                  QuantityChanged="QuantityStepper_QuantityChanged"/>
+
+                        <!-- Цвет -->
+                        <Label Grid.Row="7" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Color}"/>
+                        <TextBox Grid.Row="7" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.Color, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Размер -->
+                        <Label Grid.Row="8" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Size}"/>
+                        <TextBox Grid.Row="8" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.Size, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Страна доставки -->
+                        <Label Grid.Row="9" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_DeliveryCountry}"/>
+                        <TextBox Grid.Row="9" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.DeliveryCountry, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Рейтинг -->
+                        <Label Grid.Row="10" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Rating}"/>
+                        <controls:RatingControl Grid.Row="10" Grid.Column="1"
+                                                Rating="{Binding SelectedProduct.Rating, Mode=TwoWay}"
+                                                MaxRating="5"
+                                                StarSize="20"
+                                                IsReadOnly="False"
+                                                IsEnabled="{Binding IsAdmin}"
+                                                RatingClicked="RatingControl_RatingClicked"/>
+
+                        <!-- Скидка -->
+                        <Label Grid.Row="11" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Discount}"/>
+                        <TextBox Grid.Row="11" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.DiscountPercent, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Куплено -->
+                        <Label Grid.Row="12" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_PurchasedCount}"/>
+                        <TextBox Grid.Row="12" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.PurchasedCount, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+                        <!-- Производитель -->
+                        <Label Grid.Row="13" Grid.Column="0" Margin="0,4,0,0" Content="{DynamicResource Label_Manufacturer}"/>
+                        <TextBox Grid.Row="13" Grid.Column="1" Margin="0,4,0,0"
+                            Text="{Binding SelectedProduct.Manufacturer, UpdateSourceTrigger=PropertyChanged}"
+                            IsEnabled="{Binding IsAdmin}"/>
+
+
+                        <!-- Кнопка "В корзину" -->
+                        <Button Grid.Row="14"
+                                Content="{DynamicResource Btn_AddToCart}"
+                                Command="{Binding AddToCartCommand}"
+                                HorizontalAlignment="Left"
+                                Margin="22,4,0,4"
+                                Style="{StaticResource RoundedButtonStyle}"/>
+
+                        <Button Grid.Row="14" Grid.Column="1"
+                                Content="Сбросить цену"
+                                Command="commands:CustomCommands.ResetPrice"
+                                Margin="54,0,0,0"
+                                IsEnabled="{Binding IsAdmin}"/>
+
+                    </Grid>
+                </ScrollViewer>
+            </GroupBox>
+
+            <!-- Корзина -->
+            <GroupBox Grid.Row="1" Grid.Column="2" Header="{DynamicResource Label_Cart}" Margin="4,4,4,4">
+                <DockPanel>
+                    <ListView x:Name="CartListView" ItemsSource="{Binding CartItems}" DockPanel.Dock="Top" Height="300">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="{DynamicResource Label_ShortName}" DisplayMemberBinding="{Binding Product.ShortName}" Width="120"/>
+                                <GridViewColumn Header="{DynamicResource Label_Quantity}" DisplayMemberBinding="{Binding Quantity}" Width="60"/>
+                                <GridViewColumn Header="{DynamicResource Label_Price}" DisplayMemberBinding="{Binding Product.Price}" Width="80"/>
+                                <GridViewColumn Header="{DynamicResource Label_CartTotal}" DisplayMemberBinding="{Binding TotalPrice}" Width="80"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom" Margin="4">
+                        <TextBlock Text="{Binding CartTotal, StringFormat='Итого: {0:C}'}" FontWeight="Bold" Margin="4"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="{DynamicResource Btn_RemoveFromCart}"
+                                    Command="{Binding RemoveFromCartCommand}"
+                                    CommandParameter="{Binding SelectedItem, ElementName=CartListView}"
+/>
+                            <Button Content="{DynamicResource Btn_ClearCart}"
+                                    Command="{Binding ClearCartCommand}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DockPanel>
+            </GroupBox>
+        </Grid>
+    </DockPanel>
+</Window>

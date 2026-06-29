@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="FlowerShop.DatabaseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Администрирование базы данных"
+        Height="620"
+        Width="980"
+        MinHeight="520"
+        MinWidth="820">
+    <DockPanel Margin="10">
+        <TextBlock DockPanel.Dock="Bottom"
+                   Text="{Binding DatabaseStatus}"
+                   Margin="0,8,0,0"
+                   TextWrapping="Wrap"/>
+
+        <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,8" VerticalAlignment="Center">
+            <Label Content="Таблица" VerticalAlignment="Center"/>
+            <ComboBox Width="160"
+                      ItemsSource="{Binding DatabaseTables}"
+                      SelectedItem="{Binding SelectedDatabaseTable}"/>
+
+            <Button Content="Добавить"
+                    Margin="8,0,0,0"
+                    Command="{Binding AddDatabaseRowCommand}"/>
+            <Button Content="Удалить"
+                    Margin="8,0,0,0"
+                    Command="{Binding DeleteDatabaseRowCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=AdminGrid}"/>
+
+            <Label Content="Поле сортировки" Margin="16,0,0,0" VerticalAlignment="Center"/>
+            <TextBox Width="130"
+                     Text="{Binding DatabaseSortColumn, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button Content="A-Z"
+                    Margin="8,0,0,0"
+                    Command="{Binding SortDatabaseAscCommand}"/>
+            <Button Content="Z-A"
+                    Margin="4,0,0,0"
+                    Command="{Binding SortDatabaseDescCommand}"/>
+        </WrapPanel>
+
+        <DataGrid x:Name="AdminGrid"
+                  ItemsSource="{Binding CurrentDatabaseView}"
+                  AutoGenerateColumns="True"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="True"
+                  IsReadOnly="False"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow"
+                  GridLinesVisibility="All"
+                  RowEditEnding="AdminGrid_RowEditEnding"/>
+    </DockPanel>
+</Window>

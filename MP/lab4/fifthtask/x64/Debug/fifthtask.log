@@ -1,0 +1,8 @@
+﻿  LSC.cpp
+C:\4_sem\MP\lab4\fifthtask\LSC.cpp(44,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\4_sem\MP\lab4\fifthtask\LSC.cpp(45,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  fifthtask.cpp
+C:\4_sem\MP\lab4\fifthtask\fifthtask.cpp(47,28): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\4_sem\MP\lab4\fifthtask\fifthtask.cpp(46,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  fifthtask.vcxproj -> C:\4_sem\MP\lab4\x64\Debug\fifthtask.exe

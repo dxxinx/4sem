@@ -1,0 +1,66 @@
+[
+  {
+    "Id": "4e56d03a-b781-4f22-9822-dbb5f1117a81",
+    "ShortName": "Роза красная",
+    "FullName": "Букет красных роз (11 шт.)",
+    "Description": "Классический букет красных роз для особых случаев.",
+    "ImagePaths": [
+      "Assets/rose2.jpg"
+    ],
+    "Category": "Букеты",
+    "Rating": 4.8,
+    "Price": 45.0,
+    "QuantityInStock": 56,
+    "Color": "Красный",
+    "Size": "Средний",
+    "DeliveryCountry": "Беларусь",
+    "IsOnSale": true,
+    "DiscountPercent": 10.0,
+    "IsAvailable": true,
+    "PurchasedCount": 129,
+    "Manufacturer": "FlowerLand",
+    "RelatedProductIds": []
+  },
+  {
+    "Id": "e7caa2a9-a28e-415f-a7d3-f1cde2575bc8",
+    "ShortName": "Тюльпаны микс",
+    "FullName": "Весенний букет тюльпанов (15 шт.)",
+    "Description": "Яркий весенний букет разноцветных тюльпанов.",
+    "ImagePaths": [
+      "Assets/tulip1.jpg"
+    ],
+    "Category": "Букеты",
+    "Rating": 4.6,
+    "Price": 35.0,
+    "QuantityInStock": 56,
+    "Color": "Микс",
+    "Size": "Средний",
+    "DeliveryCountry": "Беларусь",
+    "IsOnSale": false,
+    "DiscountPercent": 0.0,
+    "IsAvailable": true,
+    "PurchasedCount": 95,
+    "Manufacturer": "SpringFlowers",
+    "RelatedProductIds": []
+  },
+  {
+    "Id": "8372d282-81a3-4498-b645-2d25691114d3",
+    "ShortName": "Новый товар",
+    "FullName": "Новый цветочный товар",
+    "Description": "",
+    "ImagePaths": [],
+    "Category": "Разное",
+    "Rating": 0.0,
+    "Price": 10.0,
+    "QuantityInStock": 0,
+    "Color": "",
+    "Size": "",
+    "DeliveryCountry": "Беларусь",
+    "IsOnSale": false,
+    "DiscountPercent": 0.0,
+    "IsAvailable": false,
+    "PurchasedCount": 0,
+    "Manufacturer": "",
+    "RelatedProductIds": []
+  }
+]

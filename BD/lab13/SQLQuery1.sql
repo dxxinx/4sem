@@ -1,0 +1,192 @@
+IF OBJECT_ID('PSUBJECT', 'P') IS NOT NULL DROP PROCEDURE PSUBJECT;
+GO
+IF OBJECT_ID('tempdb..#SUBJECT') IS NOT NULL DROP TABLE #SUBJECT;
+GO
+IF OBJECT_ID('PAUDITORIUM_INSERT', 'P') IS NOT NULL DROP PROCEDURE PAUDITORIUM_INSERT;
+GO
+IF OBJECT_ID('SUBJECT_REPORT', 'P') IS NOT NULL DROP PROCEDURE SUBJECT_REPORT;
+GO
+IF OBJECT_ID('PAUDITORIUM_INSERTX', 'P') IS NOT NULL DROP PROCEDURE PAUDITORIUM_INSERTX;
+GO
+
+-- 1. PSUBJECT без параметров
+CREATE PROCEDURE PSUBJECT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT SUBJECT, SUBJECT_NAME, PULPIT
+    FROM SUBJECT;
+
+    RETURN (SELECT COUNT(*) FROM SUBJECT);
+END;
+GO
+
+-- 2. PSUBJECT с параметрами @p и @c
+ALTER PROCEDURE PSUBJECT
+    @p VARCHAR(20),
+    @c INT OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT SUBJECT, SUBJECT_NAME, PULPIT
+    FROM SUBJECT
+    WHERE PULPIT = @p;
+
+    SELECT @c = COUNT(*)
+    FROM SUBJECT
+    WHERE PULPIT = @p;
+
+    RETURN (SELECT COUNT(*) FROM SUBJECT);
+END;
+GO
+
+-- 3. PSUBJECT без выходного параметра для INSERT EXEC
+CREATE TABLE #SUBJECT
+(
+    SUBJECT CHAR(10),
+    SUBJECT_NAME VARCHAR(100),
+    PULPIT CHAR(20)
+);
+GO
+
+ALTER PROCEDURE PSUBJECT
+    @p VARCHAR(20)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT SUBJECT, SUBJECT_NAME, PULPIT
+    FROM SUBJECT
+    WHERE PULPIT = @p;
+END;
+GO
+
+INSERT INTO #SUBJECT
+EXEC PSUBJECT @p = 'ИСИТ';
+GO
+
+SELECT * FROM #SUBJECT;
+GO
+
+-- 4. PAUDITORIUM_INSERT
+CREATE PROCEDURE PAUDITORIUM_INSERT
+    @a CHAR(20),
+    @n VARCHAR(50),
+    @c INT = 0,
+    @t CHAR(10)
+AS
+BEGIN
+    BEGIN TRY
+        INSERT INTO AUDITORIUM
+            (AUDITORIUM, AUDITORIUM_NAME, AUDITORIUM_CAPACITY, AUDITORIUM_TYPE)
+        VALUES
+            (@a, @n, @c, @t);
+
+        RETURN 1;
+    END TRY
+    BEGIN CATCH
+        PRINT 'Ошибка: ' + CAST(ERROR_NUMBER() AS VARCHAR);
+        PRINT 'Уровень: ' + CAST(ERROR_SEVERITY() AS VARCHAR);
+        PRINT 'Сообщение: ' + ERROR_MESSAGE();
+
+        RETURN -1;
+    END CATCH
+END;
+GO
+
+-- 5. SUBJECT_REPORT
+CREATE PROCEDURE SUBJECT_REPORT
+    @p CHAR(10)
+AS
+BEGIN
+    DECLARE @subj CHAR(10);
+    DECLARE @list VARCHAR(1000) = '';
+    DECLARE @rc INT = 0;
+
+    BEGIN TRY
+        IF NOT EXISTS (SELECT 1 FROM SUBJECT WHERE PULPIT = @p)
+            RAISERROR('ошибка в параметрах', 11, 1);
+
+        DECLARE subj_cursor CURSOR FOR
+            SELECT SUBJECT
+            FROM SUBJECT
+            WHERE PULPIT = @p;
+
+        OPEN subj_cursor;
+
+        FETCH NEXT FROM subj_cursor INTO @subj;
+
+        WHILE @@FETCH_STATUS = 0
+        BEGIN
+            SET @list = @list + RTRIM(@subj) + ', ';
+            SET @rc = @rc + 1;
+
+            FETCH NEXT FROM subj_cursor INTO @subj;
+        END;
+
+        CLOSE subj_cursor;
+        DEALLOCATE subj_cursor;
+
+        PRINT 'Дисциплины:';
+        PRINT LEFT(@list, LEN(@list) - 2);
+
+        RETURN @rc;
+    END TRY
+    BEGIN CATCH
+        PRINT ERROR_MESSAGE();
+
+        IF ERROR_PROCEDURE() IS NOT NULL
+            PRINT 'Имя процедуры: ' + ERROR_PROCEDURE();
+
+        RETURN -1;
+    END CATCH
+END;
+GO
+
+-- 6. PAUDITORIUM_INSERTX
+CREATE PROCEDURE PAUDITORIUM_INSERTX
+    @a CHAR(20),
+    @n VARCHAR(50),
+    @c INT = 0,
+    @t CHAR(10),
+    @tn VARCHAR(50)
+AS
+BEGIN
+    DECLARE @rc INT;
+
+    BEGIN TRY
+        SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+        BEGIN TRAN;
+
+        INSERT INTO AUDITORIUM_TYPE
+            (AUDITORIUM_TYPE, AUDITORIUM_TYPENAME)
+        VALUES
+            (@t, @tn);
+
+        EXEC @rc = PAUDITORIUM_INSERT @a, @n, @c, @t;
+
+        IF @rc <> 1
+            RAISERROR('ошибка добавления аудитории', 11, 1);
+
+        COMMIT;
+        RETURN 1;
+    END TRY
+    BEGIN CATCH
+        IF @@TRANCOUNT > 0
+            ROLLBACK;
+
+        PRINT 'Номер ошибки: ' + CAST(ERROR_NUMBER() AS VARCHAR);
+        PRINT 'Сообщение: ' + ERROR_MESSAGE();
+        PRINT 'Уровень: ' + CAST(ERROR_SEVERITY() AS VARCHAR);
+        PRINT 'Метка: ' + CAST(ERROR_STATE() AS VARCHAR);
+        PRINT 'Номер строки: ' + CAST(ERROR_LINE() AS VARCHAR);
+
+        IF ERROR_PROCEDURE() IS NOT NULL
+            PRINT 'Имя процедуры: ' + ERROR_PROCEDURE();
+
+        RETURN -1;
+    END CATCH
+END;
+GO
