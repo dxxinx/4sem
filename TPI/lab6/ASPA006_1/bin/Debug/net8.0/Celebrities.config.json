@@ -1,0 +1,6 @@
+{
+  "Celebrities": {
+    "PhotosFolder": "Photos",
+    "ConnectionString": "Data source = localhost\\SQLEXPRESS; Initial Catalog = LES01; TrustServerCertificate=True; Integrated Security=True;"
+  }
+}

@@ -1,0 +1,16 @@
+wwwroot\css\styles.css
+wwwroot\img\Babbage.jpg
+wwwroot\img\Berners-Lee.jpg
+wwwroot\img\Chomsky.jpg
+wwwroot\img\Codd.jpg
+wwwroot\img\Dijkstra.jpg
+wwwroot\img\Einstein.jpg
+wwwroot\img\Ershov.jpg
+wwwroot\img\Huntington.jpg
+wwwroot\img\Knuth.jpg
+wwwroot\img\Linus.jpg
+wwwroot\img\Lovelace.jpg
+wwwroot\img\Neumann.jpg
+wwwroot\img\Tanenbaum.jpg
+wwwroot\Index.html
+wwwroot\js\Celebrities.js

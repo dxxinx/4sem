@@ -1,0 +1,24 @@
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.deps.json
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.pdb
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfoInputs.cache
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfo.cs
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.CoreCompileInputs.cache
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.dll
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\refint\DAL_Celebrity.dll
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.pdb
+D:\Денис\4 сем\ТПВИ\laba6\DAL_Celebrity\obj\Debug\net8.0\ref\DAL_Celebrity.dll
+C:\4_sem\TPI\lab6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.deps.json
+C:\4_sem\TPI\lab6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.dll
+C:\4_sem\TPI\lab6\DAL_Celebrity\bin\Debug\net8.0\DAL_Celebrity.pdb
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.AssemblyReference.cache
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.GeneratedMSBuildEditorConfig.editorconfig
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfoInputs.cache
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.AssemblyInfo.cs
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.csproj.CoreCompileInputs.cache
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.sourcelink.json
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.dll
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\refint\DAL_Celebrity.dll
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\DAL_Celebrity.pdb
+C:\4_sem\TPI\lab6\DAL_Celebrity\obj\Debug\net8.0\ref\DAL_Celebrity.dll
